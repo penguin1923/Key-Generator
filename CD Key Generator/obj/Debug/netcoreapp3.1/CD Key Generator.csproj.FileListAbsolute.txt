@@ -1,0 +1,26 @@
+F:\Code\Personal\CD Key Generator\bin\Debug\netcoreapp3.1\CD Key Generator.exe
+F:\Code\Personal\CD Key Generator\bin\Debug\netcoreapp3.1\CD Key Generator.deps.json
+F:\Code\Personal\CD Key Generator\bin\Debug\netcoreapp3.1\CD Key Generator.runtimeconfig.json
+F:\Code\Personal\CD Key Generator\bin\Debug\netcoreapp3.1\CD Key Generator.runtimeconfig.dev.json
+F:\Code\Personal\CD Key Generator\bin\Debug\netcoreapp3.1\CD Key Generator.dll
+F:\Code\Personal\CD Key Generator\bin\Debug\netcoreapp3.1\CD Key Generator.pdb
+F:\Code\Personal\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.csprojAssemblyReference.cache
+F:\Code\Personal\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.AssemblyInfoInputs.cache
+F:\Code\Personal\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.AssemblyInfo.cs
+F:\Code\Personal\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.csproj.CoreCompileInputs.cache
+F:\Code\Personal\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.dll
+F:\Code\Personal\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.pdb
+F:\Code\Personal\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.genruntimeconfig.cache
+F:\Code\Personal\Key Generator\CD Key Generator\bin\Debug\netcoreapp3.1\CD Key Generator.exe
+F:\Code\Personal\Key Generator\CD Key Generator\bin\Debug\netcoreapp3.1\CD Key Generator.deps.json
+F:\Code\Personal\Key Generator\CD Key Generator\bin\Debug\netcoreapp3.1\CD Key Generator.runtimeconfig.json
+F:\Code\Personal\Key Generator\CD Key Generator\bin\Debug\netcoreapp3.1\CD Key Generator.runtimeconfig.dev.json
+F:\Code\Personal\Key Generator\CD Key Generator\bin\Debug\netcoreapp3.1\CD Key Generator.dll
+F:\Code\Personal\Key Generator\CD Key Generator\bin\Debug\netcoreapp3.1\CD Key Generator.pdb
+F:\Code\Personal\Key Generator\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.csprojAssemblyReference.cache
+F:\Code\Personal\Key Generator\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.AssemblyInfoInputs.cache
+F:\Code\Personal\Key Generator\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.AssemblyInfo.cs
+F:\Code\Personal\Key Generator\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.csproj.CoreCompileInputs.cache
+F:\Code\Personal\Key Generator\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.dll
+F:\Code\Personal\Key Generator\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.pdb
+F:\Code\Personal\Key Generator\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.genruntimeconfig.cache
