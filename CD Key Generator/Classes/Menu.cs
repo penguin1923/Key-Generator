@@ -46,20 +46,23 @@ namespace CD_Key_Generator.Classes
                     Console.WriteLine("1:Characters only A-Z");
                     Console.WriteLine("2:Numbers only 0-9");
                     Console.WriteLine("3:Characters and Numbers");
-
                     string option = Console.ReadLine();
                     //This is happy user and can definitly be broken no validation yet
                     Console.WriteLine("So your Program Key will be " + keyLength + " characters long and use option " + option);
                     Console.WriteLine("Is this correct? Y or N");
                     string conformation = Console.ReadLine();
 
-                    if (conformation == "Y" || conformation == "y")
+                    if (conformation == "Y" || conformation == "y" && (option == "1" || option=="2"||option=="3"))
                     {//run program
+                        Console.Clear();
                         newKey.ProgramKey(option, keyLength);
                     }
                     else
                     {//return to input==1 or break to the beginning
-
+                        Console.Clear();
+                        Console.WriteLine(option+" is not a valid option please try again");
+                        Console.WriteLine();
+                        menu.MainMenu();
                     }
                 }
                 else if (input == "Q" || input == "q")

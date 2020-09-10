@@ -26,7 +26,7 @@ namespace CD_Key_Generator.Classes
                 str_build.Append(letter);
             }
             //toupper isnt needed because these are the assigned char values for capitals only 
-            Console.WriteLine(str_build.ToString());
+            Console.WriteLine("Your key is "+str_build.ToString());
             return str_build.ToString();
         }
 
@@ -40,7 +40,7 @@ namespace CD_Key_Generator.Classes
             {
                 str_build.Append(random.Next(10));
             }
-            Console.WriteLine(str_build.ToString());
+            Console.WriteLine("Your key is " + str_build.ToString());
             return str_build.ToString();
         }
 
@@ -58,7 +58,7 @@ namespace CD_Key_Generator.Classes
             {
                 randomString += randomChar[random.Next(0,35)];
             }
-            Console.WriteLine(randomString.ToString().ToUpper());
+            Console.WriteLine("Your key is " + randomString.ToString().ToUpper());
             return randomString.ToString().ToUpper();
         }
         
