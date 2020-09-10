@@ -25,7 +25,22 @@ namespace CD_Key_Generator.Classes
 
                     //Ask for length and character types from users
                     Console.WriteLine("What is the length of the Program Key?");
-                    int keyLength = int.Parse(Console.ReadLine());
+                    int keyLength = 0;
+                    do
+                    {
+                        try
+                        {
+                            keyLength = int.Parse(Console.ReadLine());
+                        }
+                        catch
+                        {
+                            Console.WriteLine();
+                            Console.WriteLine("Please input a valid answer");
+                            Console.WriteLine();
+                            menu.MainMenu();
+                        }
+                    } while (keyLength < 1);
+                    
                     //int.parse is to convert the string to a integer
                     Console.WriteLine("what Types of Characters are you going use?");
                     Console.WriteLine("1:Characters only A-Z");
