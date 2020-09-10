@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U7Kg/9xPvCDsgdCuXOFDt43N2OV8pW0xDyxBQYww6uNbq8XEt3uPZAoENbGq01uROvviwi/yWxfZHV96HFXs1Q==",
+  "dgSpecHash": "jJcm43PqmMqhXSL8/6EwdAK/XK7UxShHGHoDO/0q52XyaFGbt9D7trV/tvpr5OifDUgYYOJiNREkvOdX7Nw/Qw==",
   "success": true,
-  "projectFilePath": "F:\\Code\\Personal\\Key Generator\\Cd Key Generator Test\\CD Key Generator Test.csproj",
+  "projectFilePath": "F:\\Code\\Personal\\Key-Generator\\Cd Key Generator Test\\CD Key Generator Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\steel\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\steel\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

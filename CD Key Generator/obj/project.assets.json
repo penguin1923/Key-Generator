@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Code\\Personal\\Key Generator\\CD Key Generator\\CD Key Generator.csproj",
+      "projectUniqueName": "F:\\Code\\Personal\\Key-Generator\\CD Key Generator\\CD Key Generator.csproj",
       "projectName": "CD Key Generator",
-      "projectPath": "F:\\Code\\Personal\\Key Generator\\CD Key Generator\\CD Key Generator.csproj",
+      "projectPath": "F:\\Code\\Personal\\Key-Generator\\CD Key Generator\\CD Key Generator.csproj",
       "packagesPath": "C:\\Users\\steel\\.nuget\\packages\\",
-      "outputPath": "F:\\Code\\Personal\\Key Generator\\CD Key Generator\\obj\\",
+      "outputPath": "F:\\Code\\Personal\\Key-Generator\\CD Key Generator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

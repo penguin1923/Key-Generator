@@ -5735,11 +5735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Code\\Personal\\Key Generator\\Cd Key Generator Test\\CD Key Generator Test.csproj",
+      "projectUniqueName": "F:\\Code\\Personal\\Key-Generator\\Cd Key Generator Test\\CD Key Generator Test.csproj",
       "projectName": "CD Key Generator Test",
-      "projectPath": "F:\\Code\\Personal\\Key Generator\\Cd Key Generator Test\\CD Key Generator Test.csproj",
+      "projectPath": "F:\\Code\\Personal\\Key-Generator\\Cd Key Generator Test\\CD Key Generator Test.csproj",
       "packagesPath": "C:\\Users\\steel\\.nuget\\packages\\",
-      "outputPath": "F:\\Code\\Personal\\Key Generator\\Cd Key Generator Test\\obj\\",
+      "outputPath": "F:\\Code\\Personal\\Key-Generator\\Cd Key Generator Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5758,8 +5758,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\Code\\Personal\\Key Generator\\CD Key Generator\\CD Key Generator.csproj": {
-              "projectPath": "F:\\Code\\Personal\\Key Generator\\CD Key Generator\\CD Key Generator.csproj"
+            "F:\\Code\\Personal\\Key-Generator\\CD Key Generator\\CD Key Generator.csproj": {
+              "projectPath": "F:\\Code\\Personal\\Key-Generator\\CD Key Generator\\CD Key Generator.csproj"
             }
           }
         }
