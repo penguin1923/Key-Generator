@@ -11,8 +11,11 @@ namespace CD_Key_Generator.Classes
  //   i have to use RNGCryptoServiceProvider and not Random
     public class Randomizer
     {
+        Encryption crypt = new Encryption();
+        String ranKey = "";
         public string Letters(int keyLength)
-        {   
+        {
+             
             StringBuilder str_build = new StringBuilder();
             Random random = new Random();
 
@@ -26,25 +29,31 @@ namespace CD_Key_Generator.Classes
                 str_build.Append(letter);
             }
             //toupper isnt needed because these are the assigned char values for capitals only 
-            Console.WriteLine("Your key is "+str_build.ToString());
-            return str_build.ToString();
+            Console.WriteLine("Your  verifacation key is " + str_build.ToString());
+            ranKey = str_build.ToString();
+            
+            crypt.IntoArray(ranKey,1);
+            return ranKey;
         }
 
-        public string Numbers(int keyLength) 
+        public string Numbers(int keyLength)
+
         {
 
             Random random = new Random();
             StringBuilder str_build = new StringBuilder();
 
-            for(int i = 0; i < keyLength; i++) 
+            for (int i = 0; i < keyLength; i++)
             {
                 str_build.Append(random.Next(10));
             }
             Console.WriteLine("Your key is " + str_build.ToString());
+            ranKey = str_build.ToString();
+            crypt.IntoArray(ranKey, 2);
             return str_build.ToString();
         }
 
-        public string Mixed(int keyLength) 
+        public string Mixed(int keyLength)
         {
             ////only writes a string of 10 
             //string randomstring = Path.GetRandomFileName();
@@ -54,14 +63,16 @@ namespace CD_Key_Generator.Classes
             char[] randomChar = "abcdefghijklmnopqrstuvwxyz123456789".ToCharArray();
             Random random = new Random();
             string randomString = "";
-            for(int i = 0; i < keyLength; i++) 
+            for (int i = 0; i < keyLength; i++)
             {
-                randomString += randomChar[random.Next(0,35)];
+                randomString += randomChar[random.Next(0, 35)];
             }
             Console.WriteLine("Your key is " + randomString.ToString().ToUpper());
+            ranKey = randomString.ToString();
+            crypt.IntoArray(ranKey, 3);
             return randomString.ToString().ToUpper();
         }
-        
+
     }
 }
 

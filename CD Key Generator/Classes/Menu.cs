@@ -64,6 +64,12 @@ namespace CD_Key_Generator.Classes
                         Console.WriteLine();
                         menu.MainMenu();
                     }
+                }else if (input == "2") 
+                {
+                    //needs to go through a decrypter
+                    Console.Clear();
+                    Console.WriteLine("What is the key to be decrypted?");
+                    string decrypt = Console.ReadLine();
                 }
                 else if (input == "Q" || input == "q")
                 {

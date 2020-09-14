@@ -76,6 +76,7 @@ namespace Cd_Key_Generator_Test
         {//just a place holder
             Randomizer neg = new Randomizer();
             Assert.AreEqual(1,10);
+            
         }
     }
 }
