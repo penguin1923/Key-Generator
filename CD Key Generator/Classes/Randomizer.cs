@@ -68,7 +68,7 @@ namespace CD_Key_Generator.Classes
                 randomString += randomChar[random.Next(0, 35)];
             }
             Console.WriteLine("Your key is " + randomString.ToString().ToUpper());
-            ranKey = randomString.ToString();
+            ranKey = randomString.ToString().ToUpper();
             crypt.IntoArray(ranKey, 3);
             return randomString.ToString().ToUpper();
         }
