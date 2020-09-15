@@ -29,7 +29,7 @@ namespace CD_Key_Generator.Classes
                 str_build.Append(letter);
             }
             //toupper isnt needed because these are the assigned char values for capitals only 
-            Console.WriteLine("Your  verifacation key is " + str_build.ToString());
+            Console.WriteLine("Your  verifacation key is: " + str_build.ToString());
             ranKey = str_build.ToString();
             
             crypt.IntoArray(ranKey,1);
@@ -47,7 +47,7 @@ namespace CD_Key_Generator.Classes
             {
                 str_build.Append(random.Next(10));
             }
-            Console.WriteLine("Your key is " + str_build.ToString());
+            Console.WriteLine("Your verifacation key is: " + str_build.ToString());
             ranKey = str_build.ToString();
             crypt.IntoArray(ranKey, 2);
             return str_build.ToString();
@@ -67,7 +67,7 @@ namespace CD_Key_Generator.Classes
             {
                 randomString += randomChar[random.Next(0, 35)];
             }
-            Console.WriteLine("Your key is " + randomString.ToString().ToUpper());
+            Console.WriteLine("Your verifacation key is: " + randomString.ToString().ToUpper());
             ranKey = randomString.ToString().ToUpper();
             crypt.IntoArray(ranKey, 3);
             return randomString.ToString().ToUpper();

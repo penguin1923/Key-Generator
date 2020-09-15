@@ -48,7 +48,7 @@ namespace CD_Key_Generator.Classes
                     
                 }
             }
-            Console.WriteLine("your encrypted key is: " + words);
+            Console.WriteLine("Your encrypted key is: " + words);
             return words;
         }
         public String EncryptNumbers(char[] keyArray)
@@ -70,7 +70,7 @@ namespace CD_Key_Generator.Classes
 
                 }
             }
-            Console.WriteLine("your encrypted key is: " + digits);
+            Console.WriteLine("Your encrypted key is: " + digits);
             return digits;
         }
 
@@ -93,7 +93,7 @@ namespace CD_Key_Generator.Classes
 
                 }
             }
-            Console.WriteLine("your encrypted key is: " + alpha);
+            Console.WriteLine("Your encrypted key is: " + alpha);
             return alpha;
         }
     }

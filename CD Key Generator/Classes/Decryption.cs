@@ -56,7 +56,7 @@ namespace CD_Key_Generator.Classes
 
                 }
             }
-            Console.WriteLine("your encrypted key is: " + words);
+            Console.WriteLine("Your verifacation key is: " + words);
             return words;
         }
         public string DecryptNumbers(char[] decryptArray)
@@ -78,7 +78,7 @@ namespace CD_Key_Generator.Classes
 
                 }
             }
-            Console.WriteLine("your encrypted key is: " + digits);
+            Console.WriteLine("Your verifacation key is: " + digits);
             return digits;
         }
         public string DecryptAlphaNumeric(char[] decryptArray)
@@ -100,7 +100,7 @@ namespace CD_Key_Generator.Classes
 
                 }
             }
-            Console.WriteLine("your encrypted key is: " + alpha);
+            Console.WriteLine("Your verifacation key is: " + alpha);
             return alpha;
         }
     }
