@@ -5,7 +5,7 @@ using System.IO;
 
 namespace CD_Key_Generator
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {

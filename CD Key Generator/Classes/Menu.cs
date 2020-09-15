@@ -9,6 +9,7 @@ namespace CD_Key_Generator.Classes
         public void MainMenu()
         {
             Generator newKey = new Generator();
+            Decryption decrypt = new Decryption();
             Menu menu = new Menu();
             while (true)
             {
@@ -69,7 +70,8 @@ namespace CD_Key_Generator.Classes
                     //needs to go through a decrypter
                     Console.Clear();
                     Console.WriteLine("What is the key to be decrypted?");
-                    string decrypt = Console.ReadLine();
+                    string decryptKey = Console.ReadLine().ToUpper();
+                    decrypt.DecryptArray(decryptKey);
                 }
                 else if (input == "Q" || input == "q")
                 {
