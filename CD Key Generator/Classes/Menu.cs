@@ -21,9 +21,7 @@ namespace CD_Key_Generator.Classes
                 string input = Console.ReadLine();
 
                 if (input == "1")
-                {
-
-                    //Ask for length and character types from users
+                {   //Ask for length and character types from users
                     Console.WriteLine("What is the length of the Program Key?");
                     int keyLength = 0;
                     do
@@ -38,10 +36,8 @@ namespace CD_Key_Generator.Classes
                             Console.WriteLine("Please input a valid numerical length of your key");
                             Console.WriteLine();
                             continue;
-
                         }
                     } while (keyLength < 1);
-
 
                     Console.WriteLine("what Types of Characters are you going use?");
                     Console.WriteLine("1:Characters only A-Z");
@@ -74,7 +70,9 @@ namespace CD_Key_Generator.Classes
                     Console.Clear();
                     Console.WriteLine("What is the key to be decrypted?");
                     string decryptKey = Console.ReadLine().ToUpper();
-                    decrypt.DecryptArray(decryptKey);
+                    Console.Clear();
+                    Console.WriteLine("The key you input was:    "+decryptKey);
+                    Console.WriteLine("Your verifacation key is: "+newKey.DecryptKey(decryptKey));
                 }
                 else if (input == "Q" || input == "q")
                 {

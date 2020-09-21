@@ -1,62 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace CD_Key_Generator.Classes
 {
-    public class Decryption : IAlphanumericDictionary
+    public class Decryption
     {
-        public Array DecryptArray(string decrypt)
-        {
-            char[] decryptArray = decrypt.ToCharArray();
-            int sum = 0;
-            for (int i = 0; i < decryptArray.Length; i++)
-            {
-                if (decryptArray[i] >= 49 && decryptArray[i]<=57)
-                {
-                    sum++;
-                }
-            }
-
-            if (sum > 0)
-            {
-                if (decryptArray.Length > sum)
-                {
-                    DecryptAlphaNumeric(decryptArray);
-                }
-                else
-                {
-                    DecryptNumbers(decryptArray);
-                }
-
-            }
-            else
-            {
-                DecryptLetters(decryptArray);
-            }
-
-            return decryptArray;
-        }
         public string DecryptLetters(char[] decryptArray)
         {
             string words = "";
             for (int i = 0; i < decryptArray.Length; i++)
             {
                 char holder = decryptArray[i];
-                foreach (KeyValuePair<char, char> kvp in letterDictionary)
+                foreach (KeyValuePair<char, char> kvp in Lexicon.letterDictionary)
                 {
                     char key = kvp.Key;
                     char value = kvp.Value;
-
                     if (holder == kvp.Value)
                     {
                         words += key;
                     }
-
-
                 }
             }
-            Console.WriteLine("Your verifacation key is: " + words);
             return words;
         }
         public string DecryptNumbers(char[] decryptArray)
@@ -65,20 +29,16 @@ namespace CD_Key_Generator.Classes
             for (int i = 0; i < decryptArray.Length; i++)
             {
                 char holder = decryptArray[i];
-                foreach (KeyValuePair<char, char> kvp in numberDictionary)
+                foreach (KeyValuePair<char,char> kvp in Lexicon.numberDictionary)
                 {
                     char key = kvp.Key;
                     char value = kvp.Value;
-
                     if (holder == kvp.Value)
                     {
                         digits += key;
                     }
-
-
                 }
             }
-            Console.WriteLine("Your verifacation key is: " + digits);
             return digits;
         }
         public string DecryptAlphaNumeric(char[] decryptArray)
@@ -87,20 +47,16 @@ namespace CD_Key_Generator.Classes
             for (int i = 0; i < decryptArray.Length; i++)
             {
                 char holder = decryptArray[i];
-                foreach (KeyValuePair<char, char> kvp in alphanumericDictionary)
+                foreach (KeyValuePair<char, char> kvp in Lexicon.alphanumericDictionary)
                 {
                     char key = kvp.Key;
                     char value = kvp.Value;
-
                     if (holder == kvp.Value)
                     {
                         alpha += key;
                     }
-
-
                 }
             }
-            Console.WriteLine("Your verifacation key is: " + alpha);
             return alpha;
         }
     }

@@ -1,12 +1,17 @@
-﻿namespace CD_Key_Generator.Classes
+﻿using System;
+using System.Diagnostics.CodeAnalysis;
+
+namespace CD_Key_Generator.Classes
 
 {
     public class Generator
     {
         Randomizer preKey = new Randomizer();
         Encryption newKey = new Encryption();
+        Decryption oldKey = new Decryption();
         string programKey = "";
         string encrypt = "";
+        string decrypt = "";
         public string ProgramKey(string option, int keyLength)
         {
             if (option == "1")
@@ -40,6 +45,33 @@
             }
             return encrypt;
         }
-
+        public string DecryptKey(string decryptKey)
+        {
+            char [] decryptArray = decryptKey.ToCharArray();
+            int sum = 0;
+            for (int i = 0; i < decryptArray.Length; i++)
+            {
+                if (decryptArray[i] >= 49 && decryptArray[i] <= 57)
+                {
+                    sum++;
+                }
+            }
+            if (sum > 0)
+            {
+                if (decryptArray.Length > sum)
+                {
+                    decrypt = oldKey.DecryptAlphaNumeric(decryptArray);
+                }
+                else
+                {
+                    decrypt = oldKey.DecryptNumbers(decryptArray);
+                }
+            }
+            else
+            {
+                decrypt =oldKey.DecryptLetters(decryptArray);
+            }
+            return decrypt;
+        }
     }
 }

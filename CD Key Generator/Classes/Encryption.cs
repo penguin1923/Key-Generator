@@ -4,7 +4,8 @@ using System.Linq;
 
 namespace CD_Key_Generator.Classes
 {
-    public class Encryption : IAlphanumericDictionary
+    
+    public class Encryption 
     {   char[] keyArray;
         
         public String EncryptLetters(string ranKey)
@@ -14,7 +15,7 @@ namespace CD_Key_Generator.Classes
             for (int i = 0; i < keyArray.Length; i++)
             {
                 char holder = keyArray[i];
-                words += letterDictionary[holder];
+                words += Lexicon.letterDictionary[holder];
             }    
             return words;
         }
@@ -25,7 +26,7 @@ namespace CD_Key_Generator.Classes
             for (int i = 0; i < keyArray.Length; i++)
             {
                 char holder = keyArray[i];
-                digits += numberDictionary[holder];
+                digits += Lexicon.numberDictionary[holder];
             }
             return digits;
         }
@@ -37,7 +38,7 @@ namespace CD_Key_Generator.Classes
             for (int i = 0; i < keyArray.Length; i++)
             {
                 char holder = keyArray[i];
-                alpha += alphanumericDictionary[holder];
+                alpha += Lexicon.alphanumericDictionary[holder];
             }
             return alpha;
         }
