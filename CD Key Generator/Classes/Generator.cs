@@ -1,35 +1,45 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using CD_Key_Generator;
-
-namespace CD_Key_Generator.Classes
+﻿namespace CD_Key_Generator.Classes
 
 {
     public class Generator
     {
         Randomizer preKey = new Randomizer();
+        Encryption newKey = new Encryption();
         string programKey = "";
-        public string ProgramKey(string option,int keyLength) 
+        string encrypt = "";
+        public string ProgramKey(string option, int keyLength)
         {
-            
             if (option == "1")
             {
-                preKey.Letters(keyLength);
+                programKey = preKey.Letters(keyLength);
             }
             else if (option == "2")
             {
-                preKey.Numbers(keyLength);
-                
+                programKey = preKey.Numbers(keyLength);
             }
             else if (option == "3")
             {
-                preKey.Mixed(keyLength);
+                programKey = preKey.Mixed(keyLength);
             }
             return programKey;
-
         }
-        
+
+        public string EncryptKey(string programKey, string option)
+        {
+            if (option == "1")
+            {
+                encrypt = newKey.EncryptLetters(programKey);
+            }
+            else if (option == "2")
+            {
+                encrypt = newKey.EncryptNumbers(programKey);
+            }
+            else if (option == "3")
+            {
+                encrypt = newKey.EncryptAlphaNumeric(programKey);
+            }
+            return encrypt;
+        }
+
     }
 }
