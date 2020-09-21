@@ -35,18 +35,19 @@ namespace CD_Key_Generator.Classes
             string words = "";
             for (int i = 0; i < keyArray.Length; i++)
             { char holder =keyArray[i];
-                foreach (KeyValuePair<char, char> kvp in letterDictionary)
-                {
-                    char key = kvp.Key;
-                    char value = kvp.Value;
+                words += letterDictionary[holder];
+                //foreach (KeyValuePair<char, char> kvp in letterDictionary)
+                //{
+                //    char key = kvp.Key;
+                //    char value = kvp.Value;
 
-                    if (holder == kvp.Key)
-                    {
-                        words += value;
-                    } 
-                    
-                    
-                }
+                //    if (holder == kvp.Key)
+                //    {
+                //        words += value;
+                //    }
+
+
+                //}
             }
             Console.WriteLine("Your encrypted key is: " + words);
             return words;

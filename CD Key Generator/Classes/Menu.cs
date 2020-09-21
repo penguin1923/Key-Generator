@@ -10,7 +10,7 @@ namespace CD_Key_Generator.Classes
         {
             Generator newKey = new Generator();
             Decryption decrypt = new Decryption();
-            Menu menu = new Menu();
+            //Menu menu = new Menu();
             while (true)
             {
                 Console.WriteLine("Welcome To The Program Key Generator");
@@ -36,9 +36,10 @@ namespace CD_Key_Generator.Classes
                         catch
                         {
                             Console.WriteLine();
-                            Console.WriteLine("Please input a valid answer");
+                            Console.WriteLine("Please input a valid numerical length of your key");
                             Console.WriteLine();
-                            menu.MainMenu();
+                            continue;
+                            //MainMenu();
                         }
                     } while (keyLength < 1);
                     
@@ -63,7 +64,8 @@ namespace CD_Key_Generator.Classes
                         Console.Clear();
                         Console.WriteLine(option+" is not a valid option please try again");
                         Console.WriteLine();
-                        menu.MainMenu();
+                        continue;
+                        //MainMenu();
                     }
                 }else if (input == "2") 
                 {
@@ -79,7 +81,7 @@ namespace CD_Key_Generator.Classes
                 }
                 else
                 {
-                    menu.InvalidOption();
+                    InvalidOption();
                 }
                 Console.ReadLine();
                 Console.Clear();
