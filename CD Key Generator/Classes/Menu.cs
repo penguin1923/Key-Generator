@@ -29,12 +29,12 @@ namespace CD_Key_Generator.Classes
                         try
                         {
                             keyLength = int.Parse(Console.ReadLine());
+                            //an int thats negative needs and extra enter to trigger the catch letters trigger automatically
                         }
                         catch
                         {
                             Console.WriteLine();
                             Console.WriteLine("Please input a valid numerical length of your key");
-                            Console.WriteLine();
                             continue;
                         }
                     } while (keyLength < 1);
