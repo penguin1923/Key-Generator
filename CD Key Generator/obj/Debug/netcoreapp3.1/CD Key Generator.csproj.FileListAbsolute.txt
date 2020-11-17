@@ -33,7 +33,10 @@ F:\Code\Personal\Key-Generator\CD Key Generator\bin\Debug\netcoreapp3.1\CD Key G
 F:\Code\Personal\Key-Generator\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.csprojAssemblyReference.cache
 F:\Code\Personal\Key-Generator\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.AssemblyInfoInputs.cache
 F:\Code\Personal\Key-Generator\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.AssemblyInfo.cs
-F:\Code\Personal\Key-Generator\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.csproj.CoreCompileInputs.cache
 F:\Code\Personal\Key-Generator\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.dll
 F:\Code\Personal\Key-Generator\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.pdb
 F:\Code\Personal\Key-Generator\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.genruntimeconfig.cache
+F:\Code\Personal\Key-Generator\CD Key Generator\bin\Debug\netcoreapp3.1\Prometheus.NetCore.dll
+F:\Code\Personal\Key-Generator\CD Key Generator\bin\Debug\netcoreapp3.1\Prometheus.NetStandard.dll
+F:\Code\Personal\Key-Generator\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.csproj.CoreCompileInputs.cache
+F:\Code\Personal\Key-Generator\CD Key Generator\obj\Debug\netcoreapp3.1\CD Key Generator.csproj.CopyComplete

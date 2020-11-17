@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "i30EcDv0ChARbwDKvgxrUFQncjSntyWGU0M2EaOb05mi6sc0dWPMJRcntD2IxsAgOnC8Xq+Vp7l1n5wP5qveEA==",
+  "dgSpecHash": "ZqpLWCjW8isDwz7wsjTxIQpU30YSRxB4u2b9xWeAhL5Rlh4UIWiRC94j3C3PdX5pm+6P6Tv0b6n9wDq4E1GD4Q==",
   "success": true,
   "projectFilePath": "F:\\Code\\Personal\\Key-Generator\\CD Key Generator\\CD Key Generator.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\steel\\.nuget\\packages\\prometheus-net\\4.0.0\\prometheus-net.4.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

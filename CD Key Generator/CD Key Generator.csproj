@@ -6,4 +6,8 @@
     <RootNamespace>CD_Key_Generator</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="prometheus-net" Version="4.0.0" />
+  </ItemGroup>
+
 </Project>
